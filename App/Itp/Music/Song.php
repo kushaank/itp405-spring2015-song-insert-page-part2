@@ -15,7 +15,7 @@ class Song extends \ITP\Base\Database {
 
 	public function __construct($title,$id,$genre_id,$price)
 	{
-		session_start();
+		
 		parent::__construct();
 		$this->title = $title;
 		$this->id = $id;
